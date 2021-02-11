@@ -4,17 +4,12 @@ header{
     min-height: 100vh;
     overflow: hidden;
 }
-nav div{
-    display: flex;
-    justify-content: end;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .cont{
     min-height: 70vh;
 }
 img{
     object-fit: cover;
+    padding-top: -20vh;
 }
 hr {border: 3px solid #666;
     border-radius: 300px/10px;
@@ -34,7 +29,4 @@ a{
 .my-intro, .my-name{
     font-family: 'Prata', serif;
     color:black;
-}
-@media {
-
 }
